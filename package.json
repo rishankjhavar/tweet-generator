@@ -1,0 +1,19 @@
+{
+  "name": "birthdayhistorytweet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Rishank Jhavar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "google-search": "0.0.5",
+    "pug": "^2.0.3",
+    "wtf_wikipedia": "^7.3.0"
+  }
+}
