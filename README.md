@@ -6,7 +6,7 @@
 
 My organization's social media manager has this 'content calendar' thing - where sometimes the company's SM accounts drop tweets/posts based on particular days (mostly birthdays of celebrities and historical figures).
 
-It definitely takes a little time - so I wrote a simple app using node.js and Express that generates a social media post on the birthday of a celeb, with a link (article or otherwise) based on the person's profession and your industry (default: blockchain).
+It definitely takes a little time each day - so I quickly wrote a simple app using node.js and Express that generates a social media post on the birthday of a celeb, with a link (article or otherwise) based on the person's profession and your industry (default: blockchain).
 
 ## Working
 
@@ -18,7 +18,7 @@ For instance, if you select 24th May and 'blockchain', one of the possible tweet
 It is the Argentinian footballer Lionel Messi's birthday today! We have a cool link for you #OnThisDay: "Hal Robson-Kanu interview: West Brom striker by day, blockchain ...https://www.independent.co.uk/sport/football/football-league/hal-robsonkanu-west-bromwich-albion-championship-interview-blockchain-bitcoin-cambridge-analytica-a8476756.html #footballer #blockchain #blockchaintechnology
 ```
 
-This program is made using is [wtf-wikipedia](https://www.npmjs.com/package/wtf_wikipedia) and [Google Custom Search API](https://developers.google.com/custom-search/v1/overview). I picked up its UI from [Colorlib](https://colorlib.com).
+This program is made using [wtf-wikipedia](https://www.npmjs.com/package/wtf_wikipedia) and [Google Custom Search API](https://developers.google.com/custom-search/v1/overview). I picked up its UI from [Colorlib](https://colorlib.com).
 
 ## Usage
 * Generate Google API key and Google CX
@@ -30,7 +30,7 @@ This program is made using is [wtf-wikipedia](https://www.npmjs.com/package/wtf_
 > npm install
 > node app.js
 ```
-You app will be live at http://localhost:4000
+Your app will be live at http://localhost:4000
 
 
 *Shoutout to [Nidish](https://github.com/nidishkr21) and [Shanu](https://github.com/sgoyanka) for patching the callback issue.*
